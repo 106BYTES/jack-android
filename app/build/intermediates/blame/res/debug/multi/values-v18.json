@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\Hokyun_Jeon\\.android\\build-cache\\14ffdb65d93fb8ec7cf6603c71d027ce8088945e\\output\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    }
+]

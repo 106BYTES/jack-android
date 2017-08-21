@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_plants"
+            android:icon="@drawable/ic_menu_flower"
+            android:title="@string/nav_plants" />
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/ic_library_books_black"
+            android:title="@string/nav_note" />
+    </group>
+
+    <item android:title="@string/nav_title_social">
+        <menu>
+            <item
+                android:id="@+id/nav_myprofile"
+                android:icon="@drawable/ic_menu_myprofile"
+                android:title="@string/nav_myprofile" />
+            <item
+                android:id="@+id/nav_friends"
+                android:icon="@drawable/ic_menu_friends"
+                android:title="@string/nav_friends" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,7 @@
+#Tue Aug 22 00:02:43 KST 2017
+base.0=C\:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_638f0e8b7d94caeda2ac1f9e01ea9f4d1bc1621f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_22a4aab089cfc8b5efca4706d344d4753f177472\\classes.dex
+base.1=C\:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_22a4aab089cfc8b5efca4706d344d4753f177472
+file.0=C\:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_638f0e8b7d94caeda2ac1f9e01ea9f4d1bc1621f\\classes.dex

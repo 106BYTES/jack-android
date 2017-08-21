@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_plant.xml",
+        "source": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\src\\main\\res\\menu\\menu_plant.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    }
+]

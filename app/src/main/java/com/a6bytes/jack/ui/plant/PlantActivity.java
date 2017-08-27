@@ -10,6 +10,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 
@@ -29,20 +30,12 @@ public class PlantActivity extends AppCompatActivity {
 
         waterSheetLayout = getLayoutInflater().inflate(R.layout.sheet_water, null);
 
-        waterSheetDialog = new BottomSheetDialog(this);
-        waterSheetDialog.setContentView(waterSheetLayout);
-        waterSheetDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
-            @Override
-            public void onDismiss(DialogInterface dialog) {
-                waterSheetDialog.dismiss();
-            }
-        });
+        waterSheetDialog = newWaterSheetDialog();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                waterSheetDialog = newWaterSheetDialog();
                 showWaterSheetDialog(view);
             }
         });
@@ -55,6 +48,12 @@ public class PlantActivity extends AppCompatActivity {
     public BottomSheetDialog newWaterSheetDialog(){
         BottomSheetDialog md = new BottomSheetDialog(this);
         md.setContentView(waterSheetLayout);
+        md.setOnCancelListener(new DialogInterface.OnCancelListener() {
+            @Override
+            public void onCancel(DialogInterface dialog) {
+                dialog.dismiss();
+            }
+        });
         return md;
     }
 }

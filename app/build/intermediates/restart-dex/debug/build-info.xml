@@ -6,26 +6,23 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1503836707383"
+    timestamp="1503840180707"
     token="4154697682193751011"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="952" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="81" />
+        duration="0" />
     <task
         name="verifier"
-        duration="70" />
+        duration="0" />
 
-    <artifact
-        location="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
     <artifact
         location="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -92,19 +89,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1503836288789"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1503836707383"
+        timestamp="1503840087158"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1503840180707"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />

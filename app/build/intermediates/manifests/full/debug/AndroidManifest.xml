@@ -28,7 +28,7 @@
             android:name="com.a6bytes.jack.ui.SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity
-            android:name="com.a6bytes.jack.ui.PlantActivity"
+            android:name="com.a6bytes.jack.ui.plant.PlantActivity"
             android:label="@string/title_activity_plant"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

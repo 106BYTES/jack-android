@@ -1,4 +1,4 @@
-package com.a6bytes.jack.ui.main.fragment;
+package com.a6bytes.jack.adapter;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;

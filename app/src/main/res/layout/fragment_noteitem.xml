@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/note_list_item_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical">
+
+    <!--com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        app:civ_border="false"
+        app:civ_shadow="false"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/side_nav_bar_bg"
+        android:layout_width="@dimen/note_list_item_image_size"
+        android:layout_height="@dimen/note_list_item_image_size"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/side_nav_bar_bg"
+        android:layout_width="@dimen/note_list_item_image_size"
+        android:layout_height="@dimen/note_list_item_image_size"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <FrameLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/content"
+                android:text="title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <TextView
+                android:id="@+id/summary"
+                android:text="summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"/>
+
+    </FrameLayout>
+
+</LinearLayout>

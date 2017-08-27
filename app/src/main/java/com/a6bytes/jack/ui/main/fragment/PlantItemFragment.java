@@ -12,7 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.a6bytes.jack.R;
-import com.a6bytes.jack.ui.PlantActivity;
+import com.a6bytes.jack.adapter.PlantItemRecyclerViewAdapter;
+import com.a6bytes.jack.ui.plant.PlantActivity;
 
 import java.util.List;
 
@@ -27,7 +28,7 @@ public class PlantItemFragment extends Fragment{
     // TODO: Customize parameter argument names
     private static final String ARG_COLUMN_COUNT = "column-count";
     // TODO: Customize parameters
-    private int mColumnCount = 1;
+    private int mColumnCount = 2;
     private PlantItemRecyclerViewAdapter.OnListFragmentInteractionListener mListener;
 
     /**

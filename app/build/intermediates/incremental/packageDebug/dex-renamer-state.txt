@@ -1,4 +1,4 @@
-#Tue Aug 22 00:02:43 KST 2017
+#Sun Aug 27 21:18:17 KST 2017
 base.0=C\:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_638f0e8b7d94caeda2ac1f9e01ea9f4d1bc1621f
 renamed.1=classes.dex
 renamed.0=classes2.dex

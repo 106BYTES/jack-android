@@ -2,13 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Hokyun_Jeon\.android\build-cache\9b4278c0eff8820cd28db62eddf333fce1927d7c\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\3b976f969ea3aed10d3fd3019d16f4d80b408ce2\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="a8340f8c17337c864648c13abe1416d34c80ec14">
-        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cafa8c6f653a6c154626317b5127224cb621e485\classes.dex" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\classes_f4403bcc8e5345b3f7bf644efa3f2a9872e45c50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_a03b853fc4c4cad78efaf342bb6d969691ea0544.jar" />
     </item>
     <item
         is-multidex="true"
@@ -16,8 +25,89 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e329ba43315627a5942e9e141253db169f4b9aac">
+        sha1="06e607d2d9e63257b87c23cf973caee514d25c9e">
         <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_22a4aab089cfc8b5efca4706d344d4753f177472\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_dae78b40363e273366de1fb854a04b6b7fdfbec9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\ff24cc358bff5469be502e54ac4d603db72ae9ae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\classes_e272b915c00e8a5c537215d31e911f4b60633b5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\4e106988362e058cad847a467ed746d4a46afb9f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\classes_657bca6a590b253b0b933559adee5e305b65007c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\14ffdb65d93fb8ec7cf6603c71d027ce8088945e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\classes_6a8dea2d9e673e12a8618f0537b7034838e53a95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\9b4278c0eff8820cd28db62eddf333fce1927d7c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8340f8c17337c864648c13abe1416d34c80ec14">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\classes_cafa8c6f653a6c154626317b5127224cb621e485.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\7c00c0b1f5ec64cb4a0fa41523a584f249787c0b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\classes_c4606f8e4b53f93237341e8064a950909e55b036.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\5e7863c1de389c814a365fa8115a432f128e3a83\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\classes_fd3b87100948e05c9685b21a075946aca6a8e326.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\708583701c27e3ce32094aa59e70e58a37b9d10b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\classes_6485e3598b70e2166d206f9e3ce4ce0a088de2c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\4e106988362e058cad847a467ed746d4a46afb9f\output\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_7b8e08853131958554a3987eec933d32dc447a04.jar" />
     </item>
     <item
         is-multidex="true"
@@ -27,6 +117,15 @@
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_638f0e8b7d94caeda2ac1f9e01ea9f4d1bc1621f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Hokyun_Jeon\.android\build-cache\74fab5875a38cb68d0c07fb3d84c61ca4a769937\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Hokyun_Jeon\Desktop\Hokyun\Programming\Projects\Android\Jack\app\build\intermediates\pre-dexed\debug\classes_ad919ededac5f6dd02bc59728cb464d2c56a710f.jar" />
     </item>
 
 </items>

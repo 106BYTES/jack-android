@@ -120,6 +120,10 @@
         "source": "C:\\Users\\Hokyun_Jeon\\.android\\build-cache\\14ffdb65d93fb8ec7cf6603c71d027ce8088945e\\output\\res\\layout\\notification_template_media.xml"
     },
     {
+        "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_noteitem.xml",
+        "source": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\src\\main\\res\\layout\\fragment_noteitem.xml"
+    },
+    {
         "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\Hokyun_Jeon\\.android\\build-cache\\14ffdb65d93fb8ec7cf6603c71d027ce8088945e\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
@@ -146,6 +150,10 @@
     {
         "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "C:\\Users\\Hokyun_Jeon\\.android\\build-cache\\74fab5875a38cb68d0c07fb3d84c61ca4a769937\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_noteitem_list.xml",
+        "source": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\src\\main\\res\\layout\\fragment_noteitem_list.xml"
     },
     {
         "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -178,6 +186,10 @@
     {
         "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Hokyun_Jeon\\.android\\build-cache\\14ffdb65d93fb8ec7cf6603c71d027ce8088945e\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sheet_water.xml",
+        "source": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\src\\main\\res\\layout\\sheet_water.xml"
     },
     {
         "merged": "C:\\Users\\Hokyun_Jeon\\Desktop\\Hokyun\\Programming\\Projects\\Android\\Jack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",

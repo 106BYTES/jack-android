@@ -1,6 +1,7 @@
 package com.a6bytes.jack.ui.main;
 
 import android.content.Intent;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -17,14 +18,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.a6bytes.jack.R;
-import com.a6bytes.jack.ui.PlantActivity;
+import com.a6bytes.jack.adapter.NoteItemRecyclerViewAdapter;
+import com.a6bytes.jack.adapter.PlantItemRecyclerViewAdapter;
 import com.a6bytes.jack.ui.SettingsActivity;
 import com.a6bytes.jack.ui.main.fragment.*;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, PlantItemRecyclerViewAdapter.OnListFragmentInteractionListener {
+        implements NavigationView.OnNavigationItemSelectedListener, PlantItemRecyclerViewAdapter.OnListFragmentInteractionListener, NoteItemFragment.OnListFragmentInteractionListener {
 
-    PlantItemFragment mPlantItemFragment;
+    Fragment currentFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,13 +42,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-
-        mPlantItemFragment = new PlantItemFragment();
-
-        fragmentTransaction.replace(R.id.main_fragment, mPlantItemFragment);
-        fragmentTransaction.commit();
+        replaceFragment(new PlantItemFragment());
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -66,6 +62,15 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setCheckedItem(R.id.nav_plants);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    void replaceFragment (Fragment mf){
+        FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fm.beginTransaction();
+        fragmentTransaction.replace(R.id.main_fragment, mf);
+        fragmentTransaction.commit();
+
+        currentFragment = mf;
     }
 
     @Override
@@ -108,8 +113,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_plants) {
-            // Handle the camera action
+            replaceFragment(new PlantItemFragment());
         } else if (id == R.id.nav_note) {
+            replaceFragment(new NoteItemFragment());
 
         }
 
@@ -120,6 +126,11 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onListFragmentInteraction(PlantItemRecyclerViewAdapter.Item item) {
-        mPlantItemFragment.onListClick(item);
+        ((PlantItemFragment)currentFragment).onListClick(item);
+    }
+
+    @Override
+    public void onListFragmentInteraction(NoteItemRecyclerViewAdapter.NoteListItem item) {
+        ((NoteItemFragment)currentFragment).onListClick(item);
     }
 }

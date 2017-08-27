@@ -18,12 +18,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/nav_header_vertical_spacing"
-            app:srcCompat="@mipmap/ic_launcher"
-            android:id="@+id/imageView" />
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imageView"
+            android:scaleType="centerCrop"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="@dimen/nav_header_vertical_spacing_top"
+            app:civ_border="false"
+            android:src="@drawable/side_nav_bar_bg" />
 
         <TextView
             android:layout_width="match_parent"
